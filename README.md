@@ -1,206 +1,134 @@
-# Nasrin Chowdhury - Molecular Medicine Researcher Portfolio
+# Nasrin Chowdhury
 
-A beautiful, interactive portfolio website showcasing research experience, publications, and expertise in molecular medicine and vascular biology.
+**Prospective PhD Researcher in Molecular Medicine**
 
-## 🎨 Design Inspiration
+Master of Science, Norwegian University of Science and Technology (NTNU)
 
-This portfolio is inspired by award-winning academic websites including:
-- Dr. Patrick Manser (Best Academic Portfolio Website 2025)
-- Dr. Roberta Rosa Valtorta (Overall Best Personal Academic Website 2025)
-- Dr. Alex E. Stern (Best Portfolio Website 2023)
+Oslo, Norway
 
-## 📁 Files
+## About
 
-- `index.html` - Main HTML structure
-- `styles.css` - Complete styling and responsive design
-- `script.js` - Interactive features and animations
-- `profile.jpg` - Profile photo (provided image)
+Nasrin Chowdhury is an accomplished molecular medicine researcher specializing in vascular biology, circadian rhythm regulation, and endothelial dysfunction. Her research focuses on understanding the role of circadian genes CLOCK and BMAL1 in cardiovascular disease pathophysiology.
 
-## 🚀 Features
+With dual Master's degrees in Molecular Medicine and Biotechnology & Genetic Engineering, Nasrin has demonstrated expertise in gene knockdown, endothelial cell culture, angiogenesis assays, and quantitative data analysis. Her work bridges molecular biology, public health, and machine learning applications in healthcare.
 
-### Interactive Elements
-- ✨ Smooth scrolling navigation
-- 📱 Fully responsive mobile menu
-- 🎯 Active section highlighting
-- 🔝 Scroll to top button
-- 💫 Fade-in animations on scroll
-- 🎨 Hover effects on cards
-- 📋 Copy email to clipboard functionality
+## Research Interests
 
-### Sections
-1. **Hero Section** - Eye-catching introduction with photo and social links
-2. **About Me** - Professional summary and research highlights
-3. **Research Experience** - Timeline of positions and funded projects
-4. **Publications** - Peer-reviewed works with links
-5. **Education** - Academic degrees and certifications
-6. **Technical Skills** - Comprehensive skill categories
-7. **Honors & Memberships** - Recognition and affiliations
-8. **Contact** - Get in touch information with references
+- Vascular Biology and Endothelial Dysfunction
+- Circadian Rhythm Regulation in Cardiovascular Disease
+- Gene Expression and Protein Analysis
+- Translational Biomedical Research
+- Healthcare Analytics and Machine Learning
 
-## 🖼️ Image Setup
+## Current Position
 
-### Profile Photo
-The provided profile photo should be saved as `profile.jpg` in the root directory.
+**Research and Development Specialist**  
+Consortium Research Center, Bangladesh (Remote)  
+August 2021 - Present
 
-### Additional Images (Optional)
-For enhanced visual appeal, you can add scientific/academic images from these **free, legal sources**:
+Leading literature reviews, experimental design, data analysis, and mentoring of early-career researchers in molecular biology and biotechnology projects.
 
-#### Recommended Free Image Sources:
+## Recent Research
 
-1. **Unsplash** (https://unsplash.com)
-   - Search terms: "microscope", "laboratory", "dna", "research", "science"
-   - License: Free for commercial and non-commercial use
+### National Institute of Occupational Health (STAMI), Oslo, Norway
+**Research Assistant** | June 2023 - December 2024
 
-2. **Pexels** (https://pexels.com)
-   - Search terms: "biology lab", "medical research", "molecular biology"
-   - License: Free for personal and commercial use
+Conducted independent research on circadian rhythm genes CLOCK and BMAL1 in vascular endothelial dysfunction. Optimized siRNA-mediated gene knockdown protocols, performed functional assays, and analyzed gene and protein expression to elucidate mechanisms linking circadian disruption to cardiovascular disease.
 
-3. **Pixabay** (https://pixabay.com)
-   - Search terms: "biotechnology", "cell biology", "scientific research"
-   - License: Free for commercial use
+## Education
 
-4. **Public Domain Images**:
-   - NIH Image Gallery (https://imagebank.nih.gov/) - Public domain medical/scientific images
-   - Wellcome Collection (https://wellcomecollection.org/) - Historical medical images
-   - NASA Image Gallery - Scientific imagery
+**Master of Science in Molecular Medicine**  
+Norwegian University of Science and Technology (NTNU), Trondheim, Norway  
+August 2022 - September 2024
 
-5. **Scientific Stock Photos**:
-   - freestockphotos.biz - Science category
-   - StockSnap.io - Laboratory and research images
+Thesis: Deciphering the Involvement of Circadian Rhythm Genes CLOCK and BMAL1 in Vascular Endothelial Dysfunction
 
-### Where to Use Additional Images (Optional):
-- Background for hero section (currently using gradient)
-- Icons for research projects (currently using Font Awesome icons)
-- Background for sections (subtle patterns)
+**Master of Science in Biotechnology & Genetic Engineering**  
+Mawlana Bhashani Science and Technology University, Bangladesh  
+February 2021 - May 2025
 
-## 🎨 Color Scheme
+Thesis: Isolation, Identification, and Screening of Amylolytic Bacteria from Tainted Pond Sediments
 
-The portfolio uses a professional academic color palette:
-- **Primary Color**: `#2c5f7c` (Professional Blue)
-- **Secondary Color**: `#1a3a4d` (Dark Navy)
-- **Accent Color**: `#4a90a4` (Light Blue)
-- **Text Color**: `#333333` (Dark Gray)
-- **Background**: `#ffffff` (White) and `#f8f9fa` (Light Gray)
+**Bachelor of Science in Biotechnology & Genetic Engineering**  
+Mawlana Bhashani Science and Technology University, Bangladesh  
+February 2015 - January 2021
 
-## 🌐 Browser Support
+## Publications
 
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-- Mobile browsers (iOS Safari, Chrome Mobile)
+**Islam, M., Qassi, A., Chowdhury, N.** (2025). Stacking Ensemble Approach for Diabetes Patient Readmission Prediction. *European Conference on Artificial Intelligence (ECAI)*, 2025. (Accepted)
 
-## 📱 Responsive Breakpoints
+**Chowdhury, N. et al.** (2024). Deciphering the Involvement of Circadian Rhythm Genes CLOCK and BMAL1 in Vascular Endothelial Dysfunction. *NTNU Open*, 2024.
 
-- Desktop: 1200px+
-- Tablet: 768px - 1199px
-- Mobile: < 768px
-- Small Mobile: < 480px
+## Funded Research Projects
 
-## 🚀 Deployment Options
+**Machine Learning Based Prediction of Diabetes Patient Readmission** (2025)  
+NTNU, Norway
 
-### Option 1: GitHub Pages (Free)
-1. Create a GitHub repository
-2. Upload all files
-3. Go to Settings > Pages
-4. Select main branch as source
-5. Your site will be live at `https://yourusername.github.io/repository-name`
+**Circadian Regulation of Vascular Endothelial Dysfunction** (2024)  
+Funded by National Institute of Occupational Health (STAMI), Norway
 
-### Option 2: Netlify (Free)
-1. Create account at netlify.com
-2. Drag and drop your folder
-3. Get instant deployment with custom domain support
+**Microbial Identification of Pathogenic Bacteria from Kitchen Environments** (2020)  
+Funded by Government of Bangladesh
 
-### Option 3: Vercel (Free)
-1. Sign up at vercel.com
-2. Import your project
-3. Deploy with automatic HTTPS
+**Poultry Meat Consumption: Risk Factors and Public Health Impact** (2019)  
+Funded by Mawlana Bhashani Science and Technology University
 
-### Option 4: Traditional Web Hosting
-Upload files via FTP to any web host supporting static HTML sites.
+## Technical Expertise
 
-## 🛠️ Customization
+**Molecular & Cell Biology:** PCR, qRT-PCR, Western blotting, siRNA-mediated gene knockdown, transfection, endothelial cell culture, migration and tube formation assays
 
-### Changing Colors
-Edit the CSS variables in `styles.css`:
-```css
-:root {
-    --primary-color: #2c5f7c;
-    --secondary-color: #1a3a4d;
-    --accent-color: #4a90a4;
-}
-```
+**Microbiology & Biotechnology:** Microbial isolation and culturing, selective/differential media, biochemical characterization, antimicrobial susceptibility testing
 
-### Updating Content
-All content is in `index.html`. Simply find the relevant section and update the text.
+**Laboratory Techniques:** Media preparation, sterile techniques, microscopy, LDH viability assays, equipment calibration and troubleshooting
 
-### Adding Projects
-Add new project cards in the "Funded Research Projects" section following the existing format.
+**Data Analysis & Research:** Experimental design, statistical analysis, data interpretation, scientific writing, literature review
 
-### Modifying Animations
-Animation settings are in `script.js` under the Intersection Observer section.
+**Computational Methods:** Machine learning model development, ensemble learning, performance evaluation metrics, Python programming
 
-## 📄 SEO Optimization
+## Certifications
 
-The portfolio includes:
-- Meta description in HTML head
-- Semantic HTML5 elements
-- Alt text for images
-- Proper heading hierarchy
-- Fast loading times
-- Mobile-friendly design
+**Vaccines and the Immune System** - Alison, 2026
 
-### To Improve SEO Further:
-1. Add a sitemap.xml
-2. Create a robots.txt file
-3. Add Open Graph meta tags for social sharing
-4. Implement Schema.org structured data
+**Machine Learning with Python** - Cognitive Class (IBM Developer Skills Network), 2025
 
-## ♿ Accessibility Features
+**Laboratory Animal Science for Researchers (NEVR8014)** - NTNU, Norway, 2023
 
-- Skip to main content link
-- Semantic HTML
-- ARIA labels for icon buttons
-- Keyboard navigation support
-- Sufficient color contrast
-- Responsive text sizing
+## Honors & Memberships
 
-## 📧 Contact Information
+Research Fellowship, Mawlana Bhashani Science and Technology University
 
-To update contact details, modify the Contact section in `index.html`.
+Member, Network of Young Biotechnologists of Bangladesh
 
-## 📝 License
+Member, Young Biotechnologist of Bangladesh
 
-This portfolio template is free to use and modify for personal or professional purposes.
+## Languages
 
-## 🙏 Credits
+English (C1 - Professional proficiency)  
+Norwegian (A2 - Intermediate)  
+Bengali (Native)  
+Hindi (A2)
 
-- Icons: [Font Awesome](https://fontawesome.com/)
-- Fonts: System fonts for optimal performance
-- Design inspiration: Award-winning academic portfolio websites
+## Contact
 
-## 🐛 Troubleshooting
+**Email:** nasrin.ntnu@gmail.com  
+**Phone:** +47 93963046  
+**Location:** Oslo, Norway  
+**LinkedIn:** [linkedin.com/in/nasrinchowdhury](https://linkedin.com/in/nasrinchowdhury)  
+**Google Scholar:** [View Profile](https://scholar.google.com/citations?hl=en&user=P6CbRUAAAAAJ)
 
-### Images not showing?
-- Ensure `profile.jpg` is in the same directory as `index.html`
-- Check file name spelling and case sensitivity
+## References
 
-### Mobile menu not working?
-- Ensure `script.js` is properly linked
-- Check browser console for JavaScript errors
+**Dr. Johanna Samulin-Erdem**  
+Scientist, National Institute of Occupational Health (STAMI), Oslo, Norway  
+Phone: +47 23 19 52 74  
+Email: johanna.samulin@stami.no
 
-### Styles not loading?
-- Verify `styles.css` is in the same directory
-- Clear browser cache
-- Check for CSS syntax errors
-
-## 📞 Support
-
-For questions or issues with the portfolio, reach out to:
-- Email: nasrin.ntnu@gmail.com
-- LinkedIn: [linkedin.com/in/nasrinchowdhury](https://linkedin.com/in/nasrinchowdhury)
+**Dr. Mrinal Kumar Das**  
+Postdoctoral Researcher, National Institute of Occupational Health (STAMI), Oslo, Norway  
+Phone: +47 23 19 53 05  
+Email: mrinal.das@stami.no
 
 ---
 
-**Built with ❤️ for academic and research professionals**
+**Seeking PhD opportunities in molecular medicine, vascular biology, and cardiovascular research.**
 
