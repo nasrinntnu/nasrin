@@ -1172,6 +1172,328 @@ body {
 }
 
 /* ==========================================
+   Google Scholar Section
+   ========================================== */
+.scholar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: var(--shadow-lg);
+    margin-bottom: 40px;
+    border-left: 5px solid var(--primary-color);
+}
+
+.scholar-info {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.scholar-icon {
+    font-size: 4rem;
+    color: var(--primary-color);
+    background: var(--bg-alt);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.scholar-details h3 {
+    font-size: 1.8rem;
+    color: var(--secondary-color);
+    margin-bottom: 8px;
+}
+
+.scholar-title {
+    color: var(--text-light);
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.scholar-interests {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.interest-tag {
+    display: inline-block;
+    padding: 6px 16px;
+    background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+    color: white;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.scholar-link .btn {
+    white-space: nowrap;
+}
+
+.scholar-metrics {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-bottom: 60px;
+}
+
+.metric-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    transition: var(--transition);
+    border-top: 3px solid var(--accent-color);
+}
+
+.metric-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.metric-icon {
+    font-size: 2.5rem;
+    color: var(--accent-color);
+    background: var(--bg-alt);
+    width: 70px;
+    height: 70px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.metric-content h4 {
+    color: var(--secondary-color);
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+.metric-value {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 5px;
+}
+
+.metric-desc {
+    color: var(--text-light);
+    font-size: 0.9rem;
+}
+
+.scholar-publications {
+    margin-top: 60px;
+}
+
+.scholar-works-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.scholar-work-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    transition: var(--transition);
+    display: flex;
+}
+
+.scholar-work-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.work-year {
+    background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    min-width: 60px;
+}
+
+.work-content {
+    padding: 25px;
+    flex: 1;
+}
+
+.work-content h4 {
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+.work-authors {
+    font-size: 0.95rem;
+    color: var(--text-color);
+    margin-bottom: 8px;
+}
+
+.work-authors strong {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.work-venue {
+    color: var(--text-light);
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.work-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.badge {
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.badge-conference {
+    background: #e3f2fd;
+    color: #1976d2;
+}
+
+.badge-ml {
+    background: #f3e5f5;
+    color: #7b1fa2;
+}
+
+.badge-health {
+    background: #e8f5e9;
+    color: #388e3c;
+}
+
+.badge-thesis {
+    background: #fff3e0;
+    color: #f57c00;
+}
+
+.badge-molecular {
+    background: #fce4ec;
+    color: #c2185b;
+}
+
+.badge-cardio {
+    background: #ffebee;
+    color: #d32f2f;
+}
+
+.scholar-link-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: var(--transition);
+}
+
+.scholar-link-btn:hover {
+    color: var(--accent-color);
+    transform: translateX(5px);
+}
+
+.scholar-link-btn i {
+    font-size: 0.8rem;
+}
+
+.scholar-cta {
+    text-align: center;
+    margin-top: 60px;
+    padding: 40px;
+    background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+    border-radius: 15px;
+    color: white;
+}
+
+.scholar-cta p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.scholar-cta .btn-secondary {
+    background-color: white;
+    color: var(--primary-color);
+    border: none;
+}
+
+.scholar-cta .btn-secondary:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-lg);
+}
+
+/* Responsive adjustments for Google Scholar section */
+@media (max-width: 968px) {
+    .scholar-header {
+        flex-direction: column;
+        text-align: center;
+        gap: 25px;
+    }
+
+    .scholar-info {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .scholar-interests {
+        justify-content: center;
+    }
+
+    .scholar-works-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .scholar-metrics {
+        grid-template-columns: 1fr;
+    }
+
+    .metric-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .work-year {
+        writing-mode: horizontal-tb;
+        padding: 15px;
+        min-width: auto;
+    }
+
+    .scholar-work-card {
+        flex-direction: column;
+    }
+}
+
+/* ==========================================
    Print Styles
    ========================================== */
 @media print {
