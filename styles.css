@@ -255,13 +255,14 @@ body {
 }
 
 .hero-image img {
-    max-width: 400px;
+    max-width: 350px;
     width: 100%;
-    border-radius: 20px;
-    box-shadow: var(--shadow-lg);
-    border: 5px solid rgba(255, 255, 255, 0.3);
+    height: 350px;
+    border-radius: 50%;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    border: 6px solid rgba(255, 255, 255, 0.9);
     object-fit: cover;
-    aspect-ratio: 3/4;
+    aspect-ratio: 1/1;
 }
 
 .scroll-indicator {
@@ -1070,7 +1071,8 @@ body {
     }
 
     .hero-image img {
-        max-width: 300px;
+        max-width: 280px;
+        height: 280px;
     }
 }
 
@@ -1146,6 +1148,11 @@ body {
 }
 
 @media (max-width: 480px) {
+    .hero-image img {
+        max-width: 220px;
+        height: 220px;
+    }
+
     .hero-buttons {
         flex-direction: column;
         gap: 10px;
