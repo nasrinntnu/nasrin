@@ -1,8 +1,8 @@
 # Nasrin Chowdhury
 
-**Prospective PhD Researcher in Molecular Medicine**
+**Master of Science in Molecular Medicine**
 
-Master of Science, Norwegian University of Science and Technology (NTNU)
+Norwegian University of Science and Technology (NTNU)
 
 Oslo, Norway
 
